@@ -20,9 +20,9 @@ class InitData:
 
             # access key
             # pylint: disable = C0103
-            self.ACCESS_KEY = environ.get('ACCESS_KEY', 'AKIA5JFUVFGKPNICRTHW')
-            self.SECRET_KEY = environ.get('SECRET_KEY', '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')
-            self.KmsKeyId = environ.get('KMSKEY_ID', '765124fd-2e19-4b8c-9d0c-0a68090bc649')
+            self.ACCESS_KEY = environ.get('ACCESS_KEY', 'xxxx')
+            self.SECRET_KEY = environ.get('SECRET_KEY', 'xxxx')
+            self.KmsKeyId = environ.get('KMSKEY_ID', 'xxxxx')
 
             # hardcoded values
             self.region = environ.get('REGION', 'us-east-1')
